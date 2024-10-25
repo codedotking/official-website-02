@@ -87,7 +87,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".1s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -122,7 +122,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Jewel Hafiz</Link>
+                    <Link href="/team/member">Jewel Hafiz</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -136,7 +136,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".2s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -171,7 +171,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Jenny Alex</Link>
+                    <Link href="/team/member">Jenny Alex</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -185,7 +185,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".3s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -220,7 +220,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Jewel Hafiz</Link>
+                    <Link href="/team/member">Jewel Hafiz</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -234,7 +234,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".4s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -269,7 +269,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">John Pretty</Link>
+                    <Link href="/team/member">John Pretty</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -283,7 +283,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".1s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -318,7 +318,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Catherin Betty</Link>
+                    <Link href="/team/member">Catherin Betty</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -332,7 +332,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".2s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -367,7 +367,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Perry Kinly</Link>
+                    <Link href="/team/member">Perry Kinly</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -381,7 +381,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".3s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -416,7 +416,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Adam Smith</Link>
+                    <Link href="/team/member">Adam Smith</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -430,7 +430,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".4s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -465,7 +465,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Jewel Hafiz</Link>
+                    <Link href="/team/member">Jewel Hafiz</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -479,7 +479,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".1s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -514,7 +514,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Denwel Rick</Link>
+                    <Link href="/team/member">Denwel Rick</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -528,7 +528,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".2s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -563,7 +563,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Litt Berry</Link>
+                    <Link href="/team/member">Litt Berry</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -577,7 +577,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".3s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -612,7 +612,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Jenny Juli</Link>
+                    <Link href="/team/member">Jenny Juli</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>
@@ -624,7 +624,7 @@ export default function TeamMembers() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".4s">
                 <div className="team-thumb">
-                  <Link className="image" href="member-details">
+                  <Link className="image" href="/team/member">
                     <Image
                       width={0}
                       height={0}
@@ -659,7 +659,7 @@ export default function TeamMembers() {
                 </ul>
                 <div className="team-content">
                   <h4 className="title">
-                    <Link href="/member-details">Ubel Lui</Link>
+                    <Link href="/team/member">Ubel Lui</Link>
                   </h4>
                   <span className="subtitle">Founder & CEO</span>
                 </div>

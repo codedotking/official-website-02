@@ -69,16 +69,8 @@ export default function Header() {
                           </li>
                         </ul>
                       </li>
-                      <li className="has-children">
-                        <Link href="/#">Team</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link href="/team-members">Team Members</Link>
-                          </li>
-                          <li>
-                            <Link href="/member-details">Member Details</Link>
-                          </li>
-                        </ul>
+                      <li>
+                        <Link href="/team">Team</Link>
                       </li>
                       <li className="has-children">
                         <Link href="/#">Blog</Link>
@@ -212,16 +204,8 @@ export default function Header() {
                   </li>
                 </ul>
               </li>
-              <li className="menu-item-has-children">
-                <Link href="/#">TEAM</Link>
-                <ul className="dropdown">
-                  <li>
-                    <Link href="/team-members">Team Members</Link>
-                  </li>
-                  <li>
-                    <Link href="/member-details">Member Details</Link>
-                  </li>
-                </ul>
+              <li>
+                <Link href="/team">TEAM</Link>
               </li>
               <li className="menu-item-has-children ">
                 <Link href="/#">BLOG</Link>

@@ -30,7 +30,7 @@ export default function TeamSectioin() {
             {/* Single Team Wrapper Start */}
             <div className="single-team">
               <div className="team-thumb">
-                <Link className="image" href="member-details">
+                <Link className="image" href="/team/member">
                   <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-1.png" alt="Team" />
                 </Link>
               </div>
@@ -58,7 +58,7 @@ export default function TeamSectioin() {
               </ul>
               <div className="team-content">
                 <h4 className="title">
-                  <Link href="/member-details">Jewel Hafiz</Link>
+                  <Link href="/team/member">Jewel Hafiz</Link>
                 </h4>
                 <span className="subtitle">Founder & CEO</span>
               </div>
@@ -72,7 +72,7 @@ export default function TeamSectioin() {
             {/* Single Team Wrapper Start */}
             <div className="single-team">
               <div className="team-thumb">
-                <Link className="image" href="member-details">
+                <Link className="image" href="/team/member">
                   <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-2.png" alt="Team" />
                 </Link>
               </div>
@@ -100,7 +100,7 @@ export default function TeamSectioin() {
               </ul>
               <div className="team-content">
                 <h4 className="title">
-                  <Link href="/member-details">Jenny Alex</Link>
+                  <Link href="/team/member">Jenny Alex</Link>
                 </h4>
                 <span className="subtitle">Founder & CEO</span>
               </div>
@@ -114,7 +114,7 @@ export default function TeamSectioin() {
             {/* Single Team Wrapper Start */}
             <div className="single-team">
               <div className="team-thumb">
-                <Link className="image" href="member-details">
+                <Link className="image" href="/team/member">
                   <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-3.png" alt="Team" />
                 </Link>
               </div>
@@ -142,7 +142,7 @@ export default function TeamSectioin() {
               </ul>
               <div className="team-content">
                 <h4 className="title">
-                  <Link href="/member-details">John Pretty</Link>
+                  <Link href="/team/member">John Pretty</Link>
                 </h4>
                 <span className="subtitle">Founder & CEO</span>
               </div>
@@ -156,7 +156,7 @@ export default function TeamSectioin() {
             {/* Single Team Wrapper Start */}
             <div className="single-team">
               <div className="team-thumb">
-                <Link className="image" href="member-details">
+                <Link className="image" href="/team/member">
                   <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-4.png" alt="Team" />
                 </Link>
               </div>
@@ -184,7 +184,7 @@ export default function TeamSectioin() {
               </ul>
               <div className="team-content">
                 <h4 className="title">
-                  <Link href="/member-details">Catherin Betty</Link>
+                  <Link href="/team/member">Catherin Betty</Link>
                 </h4>
                 <span className="subtitle">Founder & CEO</span>
               </div>
