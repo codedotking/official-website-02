@@ -3,9 +3,7 @@ import localFont from "next/font/local";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "swiper/css";
-
 import "@/app/assets/css/bootstrap.min.css";
-// import "@/app/assets/css/font-awesome.min.css";
 import "@/app/assets/css/swiper-bundle.min.css";
 import "@/app/assets/css/animate.min.css";
 import "@/app/assets/css/odometer-theme-default.min.css";
@@ -17,6 +15,7 @@ import BootstrapClient from "@/components/BootstrapClient";
 import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BackgroundProvider from "@/components/provider/BackgroundProvider";
 // import "./globals.css";
 
 const geistSans = localFont({
@@ -48,23 +47,23 @@ export default function RootLayout({
         {children}
         <Footer />
         <BootstrapClient />
-
-        <Script src="assets/js/modernizr-3.11.7.min.js" />
-        <Script src="assets/js/jquery-3.6.0.min.js" />
-        <Script src="assets/js/jquery-migrate-3.3.2.min.js" />
-        <Script src="assets/js/bootstrap.min.js" />
-        <Script src="assets/js/magnificpopup.min.js" />
-        <Script src="assets/js/swiper-bundle.min.js" />
-        <Script src="assets/js/tilt.jquery.min.js" />
-        <Script src="assets/js/odometer.min.js" />
-        <Script src="assets/js/isotope.min.js" />
-        <Script src="assets/js/imagesloaded.min.js" />
-        <Script src="assets/js/waypoint.min.js" />
-        <Script src="assets/js/wow.min.js" />
-        <Script src="assets/js/fancybox.min.js" />
-        <Script src="assets/js/jquery.ajaxchimp.min.js" />
-        <Script src="assets/js/main.js" />
-        <Script src="assets/js/home.js" />
+        <BackgroundProvider />
+        <Script src="/assets/js/modernizr-3.11.7.min.js" />
+        <Script src="/assets/js/jquery-3.6.0.min.js" />
+        <Script src="/assets/js/jquery-migrate-3.3.2.min.js" />
+        <Script src="/assets/js/bootstrap.min.js" />
+        <Script src="/assets/js/magnificpopup.min.js" />
+        <Script src="/assets/js/swiper-bundle.min.js" />
+        <Script src="/assets/js/tilt.jquery.min.js" />
+        <Script src="/assets/js/odometer.min.js" />
+        <Script src="/assets/js/isotope.min.js" />
+        <Script src="/assets/js/imagesloaded.min.js" />
+        <Script src="/assets/js/waypoint.min.js" />
+        <Script src="/assets/js/wow.min.js" />
+        <Script src="/assets/js/fancybox.min.js" />
+        <Script src="/assets/js/jquery.ajaxchimp.min.js" />
+        <Script src="/assets/js/main.js" />
+        <Script src="/assets/js/home.js" />
       </body>
     </html>
   );

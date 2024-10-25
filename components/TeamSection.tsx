@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function TeamSectioin() {
   return (
     <div className="team-section section-padding team-about-section">
@@ -28,7 +30,7 @@ export default function TeamSectioin() {
             <div className="single-team">
               <div className="team-thumb">
                 <a className="image" href="member-details.html">
-                  <img src="assets/img/team-1.png" alt="Team" />
+                  <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-1.png" alt="Team" />
                 </a>
               </div>
               <ul className="sidebar-social">
@@ -70,7 +72,7 @@ export default function TeamSectioin() {
             <div className="single-team">
               <div className="team-thumb">
                 <a className="image" href="member-details.html">
-                  <img src="assets/img/team-2.png" alt="Team" />
+                  <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-2.png" alt="Team" />
                 </a>
               </div>
               <ul className="sidebar-social">
@@ -112,7 +114,7 @@ export default function TeamSectioin() {
             <div className="single-team">
               <div className="team-thumb">
                 <a className="image" href="member-details.html">
-                  <img src="assets/img/team-3.png" alt="Team" />
+                  <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-3.png" alt="Team" />
                 </a>
               </div>
               <ul className="sidebar-social">
@@ -154,7 +156,7 @@ export default function TeamSectioin() {
             <div className="single-team">
               <div className="team-thumb">
                 <a className="image" href="member-details.html">
-                  <img src="assets/img/team-4.png" alt="Team" />
+                  <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-4.png" alt="Team" />
                 </a>
               </div>
               <ul className="sidebar-social">

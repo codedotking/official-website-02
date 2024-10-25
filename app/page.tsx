@@ -2,6 +2,7 @@ import About from "@/components/About";
 import BrandSection from "@/components/BrandSection";
 import ProgressSection from "@/components/ProgressSection";
 import TeamSectioin from "@/components/TeamSection";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,34 +16,104 @@ export default function Home() {
                 data-bg-color="#E9EDF4"
                 data-bg-image="assets/img/01_home_01.png">
                 <span className="shape shape-one">
-                  <img src="assets/img/shape-1.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-1.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-two layer" data-speed="1">
-                  <img src="assets/img/shape-2.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-2.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-three">
-                  <img src="assets/img/shape-3.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-3.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-four">
-                  <img src="assets/img/shape-4.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-4.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-five layer" data-speed="2">
-                  <img src="assets/img/shape-5.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-5.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-six">
-                  <img src="assets/img/shape-6.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-6.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-seven">
-                  <img src="assets/img/shape-7.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-7.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-eight">
-                  <img src="assets/img/shape-8.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-8.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-nine">
-                  <img src="assets/img/shape-9.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-9.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-ten">
-                  <img src="assets/img/shape-10.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-10.png"
+                    alt="Shape"
+                  />
                 </span>
                 <div className="slider-content-wrapper">
                   <div className="container">
@@ -68,19 +139,34 @@ export default function Home() {
                       <div className="col-xl-6 col-lg-7">
                         <div className="slider-image">
                           <div className="slider-image-one js-tilt">
-                            <img
-                              src="assets/img/img-one.png"
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/img-one.png"
                               alt="Slider Image"
                             />
                           </div>
                           <div className="slider-image-two js-tilt">
-                            <img
-                              src="assets/img/img-two.png"
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/img-two.png"
                               alt="Slider Image"
                             />
                           </div>
                           <span className="shape shape-circle">
-                            <img src="assets/img/circle.png" alt="Shape" />
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/circle.png"
+                              alt="Shape"
+                            />
                           </span>
                         </div>
                       </div>
@@ -95,34 +181,104 @@ export default function Home() {
                 data-bg-color="#000"
                 data-bg-image="assets/img/01_home_01.png">
                 <span className="shape shape-one">
-                  <img src="assets/img/shape-1.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-1.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-two layer" data-speed="1">
-                  <img src="assets/img/shape-2.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-2.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-three">
-                  <img src="assets/img/shape-3.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-3.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-four">
-                  <img src="assets/img/shape-4.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-4.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-five layer" data-speed="2">
-                  <img src="assets/img/shape-5.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-5.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-six">
-                  <img src="assets/img/shape-6.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-6.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-seven">
-                  <img src="assets/img/shape-7.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-7.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-eight">
-                  <img src="assets/img/shape-8.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-8.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-nine">
-                  <img src="assets/img/shape-9.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-9.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-ten">
-                  <img src="assets/img/shape-10.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-10.png"
+                    alt="Shape"
+                  />
                 </span>
                 <div className="slider-content-wrapper">
                   <div className="container">
@@ -148,19 +304,34 @@ export default function Home() {
                       <div className="col-lg-6">
                         <div className="slider-image">
                           <div className="slider-image-one js-tilt">
-                            <img
-                              src="assets/img/img-one.png"
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/img-one.png"
                               alt="Slider Image"
                             />
                           </div>
                           <div className="slider-image-two js-tilt">
-                            <img
-                              src="assets/img/img-two.png"
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/img-two.png"
                               alt="Slider Image"
                             />
                           </div>
                           <span className="shape shape-circle">
-                            <img src="assets/img/circle.png" alt="Shape" />
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/circle.png"
+                              alt="Shape"
+                            />
                           </span>
                         </div>
                       </div>
@@ -175,34 +346,104 @@ export default function Home() {
                 data-bg-color="#000"
                 data-bg-image="assets/img/01_home_01.png">
                 <span className="shape shape-one">
-                  <img src="assets/img/shape-1.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-1.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-two layer" data-speed="1">
-                  <img src="assets/img/shape-2.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-2.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-three">
-                  <img src="assets/img/shape-3.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-3.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-four">
-                  <img src="assets/img/shape-4.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-4.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-five layer" data-speed="2">
-                  <img src="assets/img/shape-5.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-5.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-six">
-                  <img src="assets/img/shape-6.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-6.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-seven">
-                  <img src="assets/img/shape-7.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-7.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-eight">
-                  <img src="assets/img/shape-8.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-8.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-nine">
-                  <img src="assets/img/shape-9.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-9.png"
+                    alt="Shape"
+                  />
                 </span>
                 <span className="shape shape-ten">
-                  <img src="assets/img/shape-10.png" alt="Shape" />
+                  <Image
+                    width={0}
+                    height={0}
+                    sizes="100vw"
+                    style={{ width: "100%", height: "auto" }}
+                    src="/assets/img/shape-10.png"
+                    alt="Shape"
+                  />
                 </span>
                 <div className="slider-content-wrapper">
                   <div className="container">
@@ -228,19 +469,34 @@ export default function Home() {
                       <div className="col-lg-6">
                         <div className="slider-image">
                           <div className="slider-image-one js-tilt">
-                            <img
-                              src="assets/img/img-one.png"
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/img-one.png"
                               alt="Slider Image"
                             />
                           </div>
                           <div className="slider-image-two js-tilt">
-                            <img
-                              src="assets/img/img-two.png"
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/img-two.png"
                               alt="Slider Image"
                             />
                           </div>
                           <span className="shape shape-circle">
-                            <img src="assets/img/circle.png" alt="Shape" />
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/circle.png"
+                              alt="Shape"
+                            />
                           </span>
                         </div>
                       </div>
@@ -323,7 +579,14 @@ export default function Home() {
           className="service-shape wow fadeInRight"
           data-wow-duration="2s"
           data-wow-delay=".6s">
-          <img src="assets/img/shape-one2.png" alt="" />
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "100%", height: "auto" }}
+            src="/assets/img/shape-one2.png"
+            alt=""
+          />
         </div>
         <div className="container">
           <div className="row">
@@ -349,7 +612,14 @@ export default function Home() {
               <div className="single-service">
                 <div className="single-service-top">
                   <div className="icon">
-                    <img src="assets/img/icon-3.png" alt="icon" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/icon-3.png"
+                      alt="icon"
+                    />
                   </div>
                   <h4 className="title">
                     <a href="service-details.html">Digital Marketing</a>
@@ -372,7 +642,14 @@ export default function Home() {
               <div className="single-service">
                 <div className="single-service-top">
                   <div className="icon">
-                    <img src="assets/img/icon-4.png" alt="icon" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/icon-4.png"
+                      alt="icon"
+                    />
                   </div>
                   <h4 className="title">
                     <a href="service-details.html">Website Development</a>
@@ -395,7 +672,14 @@ export default function Home() {
               <div className="single-service">
                 <div className="single-service-top">
                   <div className="icon">
-                    <img src="assets/img/icon-5.png" alt="icon" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/icon-5.png"
+                      alt="icon"
+                    />
                   </div>
                   <h4 className="title">
                     <a href="service-details.html">
@@ -420,7 +704,14 @@ export default function Home() {
               <div className="single-service">
                 <div className="single-service-top">
                   <div className="icon">
-                    <img src="assets/img/icon-6.png" alt="icon" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/icon-6.png"
+                      alt="icon"
+                    />
                   </div>
                   <h4 className="title">
                     <a href="service-details.html">
@@ -490,7 +781,14 @@ export default function Home() {
               <div className="col mb-25 grid-item cat2 cat4">
                 <div className="single-portfolio">
                   <a className="thumbnail" href="portfolio-details.html">
-                    <img src="assets/img/portfolio-1.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/portfolio-1.png"
+                      alt="Blog Image"
+                    />
                   </a>
                   <div className="content">
                     <span className="subtitle">Web Design</span>
@@ -510,7 +808,14 @@ export default function Home() {
               <div className="col mb-25 grid-item cat1">
                 <div className="single-portfolio">
                   <a className="thumbnail" href="portfolio-details.html">
-                    <img src="assets/img/portfolio-2.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/portfolio-2.png"
+                      alt="Blog Image"
+                    />
                   </a>
                   <div className="content">
                     <span className="subtitle">Web Design</span>
@@ -530,7 +835,14 @@ export default function Home() {
               <div className="col mb-25 grid-item cat4">
                 <div className="single-portfolio">
                   <a className="thumbnail" href="portfolio-details.html">
-                    <img src="assets/img/portfolio-3.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/portfolio-3.png"
+                      alt="Blog Image"
+                    />
                   </a>
                   <div className="content">
                     <span className="subtitle">Photography</span>
@@ -550,7 +862,14 @@ export default function Home() {
               <div className="col mb-25 grid-item cat3 cat1">
                 <div className="single-portfolio">
                   <a className="thumbnail" href="portfolio-details.html">
-                    <img src="assets/img/portfolio-4.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/portfolio-4.png"
+                      alt="Blog Image"
+                    />
                   </a>
                   <div className="content">
                     <span className="subtitle">Marketing</span>
@@ -570,7 +889,14 @@ export default function Home() {
               <div className="col mb-25 grid-item cat4">
                 <div className="single-portfolio">
                   <a className="thumbnail" href="portfolio-details.html">
-                    <img src="assets/img/portfolio-6.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/portfolio-6.png"
+                      alt="Blog Image"
+                    />
                   </a>
                   <div className="content">
                     <span className="subtitle">Photography</span>
@@ -590,7 +916,14 @@ export default function Home() {
               <div className="col mb-25 grid-item cat1 cat3">
                 <div className="single-portfolio">
                   <a className="thumbnail" href="portfolio-details.html">
-                    <img src="assets/img/portfolio-5.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/portfolio-5.png"
+                      alt="Blog Image"
+                    />
                   </a>
                   <div className="content">
                     <span className="subtitle">Development</span>
@@ -640,10 +973,24 @@ export default function Home() {
         <div className="container">
           <div className="testimonial-wrapper">
             <div className="large-quote">
-              <img src="assets/img/quote-1.png" alt="quote" />
+              <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                src="/assets/img/quote-1.png"
+                alt="quote"
+              />
             </div>
             <div className="large-text">
-              <img src="assets/img/text-img.png" alt="Text" />
+              <Image
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                src="/assets/img/text-img.png"
+                alt="Text"
+              />
             </div>
             <div className="row">
               <div
@@ -660,7 +1007,14 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-single">
                           <div className="testimonial-single-quote">
-                            <img src="assets/img/quote-2.png" alt="Quote" />
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/quote-2.png"
+                              alt="Quote"
+                            />
                           </div>
                           <div className="testimonial-single-content">
                             <p className="client-text">
@@ -669,8 +1023,12 @@ export default function Home() {
                               the light says the great Jim.
                             </p>
                             <div className="client-info">
-                              <img
-                                src="assets/img/testimonial-one.png"
+                              <Image
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "100%", height: "auto" }}
+                                src="/assets/img/testimonial-one.png"
                                 alt=""
                               />
                               <h4 className="name">
@@ -686,7 +1044,14 @@ export default function Home() {
                       <div className="swiper-slide">
                         <div className="testimonial-single">
                           <div className="testimonial-single-quote">
-                            <img src="assets/img/quote-2.png" alt="Quote" />
+                            <Image
+                              width={0}
+                              height={0}
+                              sizes="100vw"
+                              style={{ width: "100%", height: "auto" }}
+                              src="/assets/img/quote-2.png"
+                              alt="Quote"
+                            />
                           </div>
                           <div className="testimonial-single-content">
                             <p className="client-text">
@@ -695,8 +1060,12 @@ export default function Home() {
                               the light says the great Jim.
                             </p>
                             <div className="client-info">
-                              <img
-                                src="assets/img/testimonial-one.png"
+                              <Image
+                                width={0}
+                                height={0}
+                                sizes="100vw"
+                                style={{ width: "100%", height: "auto" }}
+                                src="/assets/img/testimonial-one.png"
                                 alt=""
                               />
                               <h4 className="name">
@@ -713,25 +1082,41 @@ export default function Home() {
 
                     <div className="swiper-arrow">
                       <div className="swiper-btn swiper-btn-prev">
-                        <img
-                          src="assets/img/arrow-1.png"
+                        <Image
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          src="/assets/img/arrow-1.png"
                           alt="Arrow"
                           className="arrow-1"
                         />
-                        <img
-                          src="assets/img/arrow-2.png"
+                        <Image
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          src="/assets/img/arrow-2.png"
                           alt="Arrow"
                           className="arrow-2"
                         />
                       </div>
                       <div className="swiper-btn swiper-btn-next">
-                        <img
-                          src="assets/img/arrow-1.png"
+                        <Image
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          src="/assets/img/arrow-1.png"
                           alt="Arrow"
                           className="arrow-1"
                         />
-                        <img
-                          src="assets/img/arrow-2.png"
+                        <Image
+                          width={0}
+                          height={0}
+                          sizes="100vw"
+                          style={{ width: "100%", height: "auto" }}
+                          src="/assets/img/arrow-2.png"
                           alt="Arrow"
                           className="arrow-2"
                         />
@@ -769,7 +1154,14 @@ export default function Home() {
               <div className="blog">
                 <div className="blog-thumbnail">
                   <a href="blog-details.html" className="image">
-                    <img src="assets/img/blog-1.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/blog-1.png"
+                      alt="Blog Image"
+                    />
                   </a>
                 </div>
                 <div className="blog-info">
@@ -792,7 +1184,14 @@ export default function Home() {
               <div className="blog">
                 <div className="blog-thumbnail">
                   <a href="blog-details.html" className="image">
-                    <img src="assets/img/blog-2.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/blog-2.png"
+                      alt="Blog Image"
+                    />
                   </a>
                 </div>
                 <div className="blog-info">
@@ -815,7 +1214,14 @@ export default function Home() {
               <div className="blog">
                 <div className="blog-thumbnail">
                   <a href="blog-details.html" className="image">
-                    <img src="assets/img/blog-3.png" alt="Blog Image" />
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/blog-3.png"
+                      alt="Blog Image"
+                    />
                   </a>
                 </div>
                 <div className="blog-info">

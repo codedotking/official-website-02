@@ -2,34 +2,35 @@ import About from "@/components/About";
 import BrandSection from "@/components/BrandSection";
 import ProgressSection from "@/components/ProgressSection";
 import TeamSectioin from "@/components/TeamSection";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <div className="section breadcrumb-section">
         <span className="shape shape-one layer" data-speed="1">
-          <img src="assets/img/shape-2.png" alt="Shape" />
+          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-2.png" alt="Shape" />
         </span>
         <span className="shape shape-two layer" data-speed="2">
-          <img src="assets/img/shape-5.png" alt="Shape" />
+          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-5.png" alt="Shape" />
         </span>
         <span
           className="shape shape-three wow pulse"
           data-wow-duration="1s"
           data-wow-delay=".1s">
-          <img src="assets/img/shape-7.png" alt="Shape" />
+          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-7.png" alt="Shape" />
         </span>
         <span
           className="shape shape-four wow fadeInUp"
           data-wow-duration="1s"
           data-wow-delay=".1s">
-          <img src="assets/img/shape-9.png" alt="Shape" />
+          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-9.png" alt="Shape" />
         </span>
         <span
           className="shape shape-five wow fadeInUp"
           data-wow-duration="1.5s"
           data-wow-delay=".1s">
-          <img src="assets/img/shape-10.png" alt="Shape" />
+          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-10.png" alt="Shape" />
         </span>
         <div className="container">
           <div className="row">
@@ -58,9 +59,9 @@ export default function Home() {
               data-wow-delay=".1s">
               <div className="divider-thumb" data-bg-image="">
                 <div className="video-content-wrap">
-                  <img
+                  <Image
                     className="icon-img"
-                    src="assets/img/about-video.png"
+                     width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/about-video.png"
                     alt="Image"
                   />
                   <a

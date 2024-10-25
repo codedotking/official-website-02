@@ -1,8 +1,9 @@
 "use client";
 import { useScroll } from "ahooks";
+import Image from "next/image";
 
 export default function Header() {
-  const scroll = useScroll(document);
+  const scroll = useScroll();
 
   return (
     <>
@@ -17,7 +18,12 @@ export default function Header() {
                 <div className="flex-center justify-content-between">
                   <div className="logo">
                     <a href="">
-                      <img src="assets/img/logo.png" alt="" />
+                      <Image
+                        src="/assets/img/logo.png"
+                        width={0}
+                        height={0}
+                        alt=""
+                      />
                     </a>
                   </div>
                   <div className="flex-center header-right">
@@ -150,7 +156,14 @@ export default function Header() {
         <div className="offcanvas-header">
           <div className="logo">
             <a href="">
-              <img src="assets/img/logo.png" alt="" />
+              <Image
+                src="/assets/img/logo.png"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                alt=""
+              />
             </a>
           </div>
           <button

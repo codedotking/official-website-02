@@ -16,16 +16,16 @@
       Custom script to call Background
       Image & Color from html data attribute
   -----------------------------------*/
-  $('[data-bg-image]').each(function () {
-    var $this = $(this),
-        $image = $this.data('bg-image');
-    $this.css('background-image', 'url(' + $image + ')');
-  });
-  $('[data-bg-color]').each(function () {
-      var $this = $(this),
-          $color = $this.data('bg-color');
-      $this.css('background-color', $color);
-  });
+  // $('[data-bg-image]').each(function () {
+  //   var $this = $(this),
+  //       $image = $this.data('bg-image');
+  //   $this.css('background-image', 'url(' + $image + ')');
+  // });
+  // $('[data-bg-color]').each(function () {
+  //     var $this = $(this),
+  //         $color = $this.data('bg-color');
+  //     $this.css('background-color', $color);
+  // });
 
 /*---------------------------------
   Parallax Instance

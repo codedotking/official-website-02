@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <div className="about section-padding">
@@ -5,34 +7,34 @@ export default function About() {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="main-image">
-              <img
+              <Image
                 className="about-img js-tilt"
-                src="assets/img/about.png"
+                 width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/about.png"
                 alt="about"
               />
               <div
                 className="shape-one wow fadeIn"
                 data-wow-duration="1s"
                 data-wow-delay=".1s">
-                <img src="assets/img/shape-one1.png" alt="Shape" />
+                <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-one1.png" alt="Shape" />
               </div>
               <div
                 className="shape-two wow fadeIn"
                 data-wow-duration="1s"
                 data-wow-delay=".1s">
-                <img src="assets/img/shape-two1.png" alt="Shape" />
+                <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-two1.png" alt="Shape" />
               </div>
               <div
                 className="about-icon icon-one wow flipInY"
                 data-wow-duration="2s"
                 data-wow-delay=".6s">
-                <img src="assets/img/icon-1.png" alt="Icon" />
+                <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/icon-1.png" alt="Icon" />
               </div>
               <div
                 className="about-icon icon-two wow flipInY"
                 data-wow-duration="2s"
                 data-wow-delay=".6s">
-                <img src="assets/img/icon-2.png" alt="Icon" />
+                <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/icon-2.png" alt="Icon" />
               </div>
               <div
                 className="circle-thumb wow pulse"

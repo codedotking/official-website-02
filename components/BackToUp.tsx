@@ -2,7 +2,7 @@
 import { useScroll } from "ahooks";
 import { useEffect, useRef, useState } from "react";
 export default function BackToUp() {
-  const scroll = useScroll(document);
+  const scroll = useScroll();
   const lastScrollTop = useRef(0);
   const [showVisible, setShowVisible] = useState(false);
   useEffect(() => {

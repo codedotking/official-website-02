@@ -1,14 +1,16 @@
+import Image from "next/image";
 import BackToUp from "./BackToUp";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <>
       <footer className="footer-wrapper">
         <div className="shape-one">
-          <img src="assets/img/shape-one.png" alt="Footer-Shape" />
+          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-one.png" alt="Footer-Shape" />
         </div>
         <div className="shape-two">
-          <img src="assets/img/shape-two.png" alt="Footer-Shape" />
+          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-two.png" alt="Footer-Shape" />
         </div>
         <div className="container">
           <div className="row">
@@ -51,7 +53,7 @@ export default function Footer() {
               <div className="footer-widget negative-margin">
                 <div className="logo">
                   <a href="">
-                    <img src="assets/img/logo.png" alt="" />
+                    <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/logo.png" alt="" />
                   </a>
                 </div>
                 <ul className="footer-widget-list-icon">
@@ -157,7 +159,7 @@ export default function Footer() {
                 <ul className="instagrm">
                   <li>
                     <a href="#">
-                      <img src="assets/img/insta-one.png" alt="Insta-Image" />
+                      <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-one.png" alt="Insta-Image" />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
@@ -165,7 +167,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a href="#">
-                      <img src="assets/img/insta-two.png" alt="Insta-Image" />
+                      <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-two.png" alt="Insta-Image" />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
@@ -173,7 +175,10 @@ export default function Footer() {
                   </li>
                   <li>
                     <a href="#">
-                      <img src="assets/img/insta-three.png" alt="Insta-Image" />
+                      <Image
+                         width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-three.png"
+                        alt="Insta-Image"
+                      />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
@@ -181,7 +186,10 @@ export default function Footer() {
                   </li>
                   <li>
                     <a href="#">
-                      <img src="assets/img/insta-four.png" alt="Insta-Image" />
+                      <Image
+                         width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-four.png"
+                        alt="Insta-Image"
+                      />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
@@ -189,7 +197,10 @@ export default function Footer() {
                   </li>
                   <li>
                     <a href="#">
-                      <img src="assets/img/insta-five.png" alt="Insta-Image" />
+                      <Image
+                         width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-five.png"
+                        alt="Insta-Image"
+                      />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
@@ -197,7 +208,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a href="#">
-                      <img src="assets/img/insta-six.png" alt="Insta-Image" />
+                      <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-six.png" alt="Insta-Image" />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
@@ -214,7 +225,7 @@ export default function Footer() {
                 data-wow-duration="1.5s"
                 data-wow-delay=".1s">
                 <p className="order-md-1 order-2">
-                  Designed with love By <a href="/">bootstrapmb</a>© 2022
+                  Designed with love By <Link href="/">bootstrapmb</Link>© 2022
                 </p>
                 <ul className="footer-bootm-list order-md-2 order-1">
                   <li>
