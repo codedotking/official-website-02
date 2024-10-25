@@ -1,10 +1,10 @@
 "use client";
 import { useScroll } from "ahooks";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   const scroll = useScroll();
-
   return (
     <>
       <header
@@ -13,138 +13,134 @@ export default function Header() {
         }`}>
         <div className="">
           <div className="container">
-            <div className="row">
-              <div className="col-12">
-                <div className="flex-center justify-content-between">
-                  <div className="logo">
-                    <a href="">
-                      <Image
-                        src="/assets/img/logo.png"
-                        width={0}
-                        height={0}
-                        alt=""
-                      />
-                    </a>
+            <div className="flex items-center justify-between">
+              <div className="logo">
+                <Link href="/">
+                  <Image
+                    src="/assets/img/logo.png"
+                    width={173}
+                    height={48}
+                    alt=""
+                  />
+                </Link>
+              </div>
+              <div className="flex-center header-right">
+                <div className="hidden  lg:flex  header-right_menu">
+                  <nav className="main-menu">
+                    <ul>
+                      <li className="has-children">
+                        <a href="#">Home</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <Link href="/">Home One</Link>
+                          </li>
+                          <li>
+                            <Link href="/index-2">Home Two</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <Link href="/about">About</Link>
+                      </li>
+                      <li className="has-children">
+                        <a href="#">Service</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <Link href="/service">Service</Link>
+                          </li>
+                          <li>
+                            <Link href="/service-details">Service Details</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="has-children">
+                        <a href="#">Portfolio</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <Link href="/portfolio">Portfolio</Link>
+                          </li>
+                          <li>
+                            <Link href="/portfolio-grid">Portfolio Grid</Link>
+                          </li>
+                          <li>
+                            <Link href="/portfolio-details">
+                              Portfolio Details
+                            </Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="has-children">
+                        <a href="#">Team</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <Link href="/team-members">Team Members</Link>
+                          </li>
+                          <li>
+                            <Link href="/member-details">Member Details</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li className="has-children">
+                        <a href="#">Blog</a>
+                        <ul className="sub-menu">
+                          <li>
+                            <Link href="/blog">Blog Standard</Link>
+                          </li>
+                          <li>
+                            <Link href="/blog-grid">Blog Grid</Link>
+                          </li>
+                          <li>
+                            <Link href="/blog-details">Blog Details</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <Link href="/contact">Contact</Link>
+                      </li>
+                    </ul>
+                  </nav>
+                </div>
+                <div className="header-right_actions flex-center">
+                  <div className="header-social">
+                    <ul className="social-icon flex-center">
+                      <li>
+                        <Link
+                          href="https://www.facebook.com/"
+                          className="facebook">
+                          <i className="fab fa-facebook-f"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://twitter.com/" className="twitter">
+                          <i className="fab fa-twitter"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://www.linkedin.com/"
+                          className="linkedin">
+                          <i className="fab fa-linkedin-in"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          href="https://www.instagram.com/"
+                          className="instagram">
+                          <i className="fab fa-instagram"></i>
+                        </Link>
+                      </li>
+                    </ul>
                   </div>
-                  <div className="flex-center header-right">
-                    <div className="d-none d-lg-flex header-right_menu">
-                      <nav className="main-menu">
-                        <ul>
-                          <li className="has-children">
-                            <a href="#">Home</a>
-                            <ul className="sub-menu">
-                              <li>
-                                <a href="">Home One</a>
-                              </li>
-                              <li>
-                                <a href="index-2">Home Two</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="about">About</a>
-                          </li>
-                          <li className="has-children">
-                            <a href="#">Service</a>
-                            <ul className="sub-menu">
-                              <li>
-                                <a href="service">Service</a>
-                              </li>
-                              <li>
-                                <a href="service-details">Service Details</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li className="has-children">
-                            <a href="#">Portfolio</a>
-                            <ul className="sub-menu">
-                              <li>
-                                <a href="portfolio">Portfolio</a>
-                              </li>
-                              <li>
-                                <a href="portfolio-grid">Portfolio Grid</a>
-                              </li>
-                              <li>
-                                <a href="portfolio-details">
-                                  Portfolio Details
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li className="has-children">
-                            <a href="#">Team</a>
-                            <ul className="sub-menu">
-                              <li>
-                                <a href="team-members">Team Members</a>
-                              </li>
-                              <li>
-                                <a href="member-details">Member Details</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li className="has-children">
-                            <a href="#">Blog</a>
-                            <ul className="sub-menu">
-                              <li>
-                                <a href="blog">Blog Standard</a>
-                              </li>
-                              <li>
-                                <a href="blog-grid">Blog Grid</a>
-                              </li>
-                              <li>
-                                <a href="blog-details">Blog Details</a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="contact">Contact</a>
-                          </li>
-                        </ul>
-                      </nav>
-                    </div>
-                    <div className="header-right_actions flex-center">
-                      <div className="header-social">
-                        <ul className="social-icon flex-center">
-                          <li>
-                            <a
-                              href="https://www.facebook.com/"
-                              className="facebook">
-                              <i className="fab fa-facebook-f"></i>
-                            </a>
-                          </li>
-                          <li>
-                            <a href="https://twitter.com/" className="twitter">
-                              <i className="fab fa-twitter"></i>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/"
-                              className="linkedin">
-                              <i className="fab fa-linkedin-in"></i>
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://www.instagram.com/"
-                              className="instagram">
-                              <i className="fab fa-instagram"></i>
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="hamburger d-block d-lg-none">
-                        <a
-                          className="header-action-btn header-action-btn-menu hamburger_button d-flex"
-                          href="#/"
-                          data-bs-toggle="offcanvas"
-                          data-bs-target="#offcanvas-header">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                        </a>
-                      </div>
-                    </div>
+                  <div className="hamburger d-block d-lg-none">
+                    <a
+                      className="header-action-btn header-action-btn-menu hamburger_button d-flex"
+                      href="#/"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvas-header">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -155,7 +151,7 @@ export default function Header() {
       <div className="offcanvas offcanvas-end" id="offcanvas-header">
         <div className="offcanvas-header">
           <div className="logo">
-            <a href="">
+            <Link href="">
               <Image
                 src="/assets/img/logo.png"
                 width={0}
@@ -164,7 +160,7 @@ export default function Header() {
                 style={{ width: "100%", height: "auto" }}
                 alt=""
               />
-            </a>
+            </Link>
           </div>
           <button
             type="button"
@@ -181,24 +177,24 @@ export default function Header() {
                 <a href="#">HOME</a>
                 <ul className="dropdown">
                   <li>
-                    <a href="">Home One </a>
+                    <Link href="/">Home One </Link>
                   </li>
                   <li>
-                    <a href="index-2">Home Two</a>
+                    <Link href="/index-2">Home Two</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="about">ABOUT</a>
+                <Link href="/about">ABOUT</Link>
               </li>
               <li className="menu-item-has-children">
                 <a href="#">SERVICE</a>
                 <ul className="dropdown">
                   <li>
-                    <a href="service">Service</a>
+                    <Link href="/service">Service</Link>
                   </li>
                   <li>
-                    <a href="service-details">Service Details</a>
+                    <Link href="/service-details">Service Details</Link>
                   </li>
                 </ul>
               </li>
@@ -206,13 +202,13 @@ export default function Header() {
                 <a href="#">PORTFOLIO</a>
                 <ul className="dropdown">
                   <li>
-                    <a href="portfolio">Portfolio</a>
+                    <Link href="/portfolio">Portfolio</Link>
                   </li>
                   <li>
-                    <a href="portfolio-grid">Portfolio Grid</a>
+                    <Link href="/portfolio-grid">Portfolio Grid</Link>
                   </li>
                   <li>
-                    <a href="portfolio-details">Portfolio Details</a>
+                    <Link href="/portfolio-details">Portfolio Details</Link>
                   </li>
                 </ul>
               </li>
@@ -220,10 +216,10 @@ export default function Header() {
                 <a href="#">TEAM</a>
                 <ul className="dropdown">
                   <li>
-                    <a href="team-members">Team Members</a>
+                    <Link href="/team-members">Team Members</Link>
                   </li>
                   <li>
-                    <a href="member-details">Member Details</a>
+                    <Link href="/member-details">Member Details</Link>
                   </li>
                 </ul>
               </li>
@@ -231,18 +227,18 @@ export default function Header() {
                 <a href="#">BLOG</a>
                 <ul className="dropdown">
                   <li>
-                    <a href="blog">Blog Standard</a>
+                    <Link href="/blog">Blog Standard</Link>
                   </li>
                   <li>
-                    <a href="blog-grid">Blog Grid</a>
+                    <Link href="/blog-grid">Blog Grid</Link>
                   </li>
                   <li>
-                    <a href="blog-details">Blog Details</a>
+                    <Link href="/blog-details">Blog Details</Link>
                   </li>
                 </ul>
               </li>
               <li>
-                <a href="contact">CONTACT US </a>
+                <Link href="/contact">CONTACT US </Link>
               </li>
             </ul>
           </nav>

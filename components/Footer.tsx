@@ -7,10 +7,24 @@ export default function Footer() {
     <>
       <footer className="footer-wrapper">
         <div className="shape-one">
-          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-one.png" alt="Footer-Shape" />
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "100%", height: "auto" }}
+            src="/assets/img/shape-one.png"
+            alt="Footer-Shape"
+          />
         </div>
         <div className="shape-two">
-          <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/shape-two.png" alt="Footer-Shape" />
+          <Image
+            width={0}
+            height={0}
+            sizes="100vw"
+            style={{ width: "100%", height: "auto" }}
+            src="/assets/img/shape-two.png"
+            alt="Footer-Shape"
+          />
         </div>
         <div className="container">
           <div className="row">
@@ -52,9 +66,16 @@ export default function Footer() {
               data-wow-delay=".1s">
               <div className="footer-widget negative-margin">
                 <div className="logo">
-                  <a href="">
-                    <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/logo.png" alt="" />
-                  </a>
+                  <Link href="/">
+                    <Image
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: "100%", height: "auto" }}
+                      src="/assets/img/logo.png"
+                      alt=""
+                    />
+                  </Link>
                 </div>
                 <ul className="footer-widget-list-icon">
                   <li>
@@ -75,24 +96,26 @@ export default function Footer() {
                 </ul>
                 <ul className="social-icon d-flex flex-start">
                   <li>
-                    <a href="https://www.facebook.com/" className="facebook">
+                    <Link href="https://www.facebook.com/" className="facebook">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" className="twitter">
+                    <Link href="https://twitter.com/" className="twitter">
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" className="linkedin">
+                    <Link href="https://www.linkedin.com/" className="linkedin">
                       <i className="fab fa-linkedin-in"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" className="instagram">
+                    <Link
+                      href="https://www.instagram.com/"
+                      className="instagram">
                       <i className="fab fa-instagram"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -106,19 +129,19 @@ export default function Footer() {
                 <h5 className="footer-widget-title">Service</h5>
                 <ul className="footer-widget-list">
                   <li>
-                    <a href="about.html">Web Design</a>
+                    <Link href="about">Web Design</Link>
                   </li>
                   <li>
-                    <a href="about.html">Development</a>
+                    <Link href="about">Development</Link>
                   </li>
                   <li>
-                    <a href="about.html">Digital Marketing</a>
+                    <Link href="about">Digital Marketing</Link>
                   </li>
                   <li>
-                    <a href="about.html">Graphic Design</a>
+                    <Link href="about">Graphic Design</Link>
                   </li>
                   <li>
-                    <a href="about.html">Photogaphy</a>
+                    <Link href="about">Photogaphy</Link>
                   </li>
                 </ul>
               </div>
@@ -132,19 +155,19 @@ export default function Footer() {
                 <h5 className="footer-widget-title">Quick Links</h5>
                 <ul className="footer-widget-list">
                   <li>
-                    <a href="about.html">About us</a>
+                    <Link href="/about">About us</Link>
                   </li>
                   <li>
-                    <a href="contact.html">History</a>
+                    <Link href="/contact">History</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Support</a>
+                    <Link href="/contact">Support</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <Link href="/contact">Contact</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Refund</a>
+                    <Link href="/contact">Refund</Link>
                   </li>
                 </ul>
               </div>
@@ -158,61 +181,94 @@ export default function Footer() {
                 <h5 className="footer-widget-title">Follow Us On</h5>
                 <ul className="instagrm">
                   <li>
-                    <a href="#">
-                      <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-one.png" alt="Insta-Image" />
-                      <div className="add-action">
-                        <i className="fab fa-instagram"></i>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-two.png" alt="Insta-Image" />
-                      <div className="add-action">
-                        <i className="fab fa-instagram"></i>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
+                    <Link href="/#">
                       <Image
-                         width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-three.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        src="/assets/img/insta-one.png"
                         alt="Insta-Image"
                       />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="/#">
                       <Image
-                         width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-four.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        src="/assets/img/insta-two.png"
                         alt="Insta-Image"
                       />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="/#">
                       <Image
-                         width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-five.png"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        src="/assets/img/insta-three.png"
                         alt="Insta-Image"
                       />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
-                      <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/insta-six.png" alt="Insta-Image" />
+                    <Link href="/#">
+                      <Image
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        src="/assets/img/insta-four.png"
+                        alt="Insta-Image"
+                      />
                       <div className="add-action">
                         <i className="fab fa-instagram"></i>
                       </div>
-                    </a>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#">
+                      <Image
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        src="/assets/img/insta-five.png"
+                        alt="Insta-Image"
+                      />
+                      <div className="add-action">
+                        <i className="fab fa-instagram"></i>
+                      </div>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/#">
+                      <Image
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        style={{ width: "100%", height: "auto" }}
+                        src="/assets/img/insta-six.png"
+                        alt="Insta-Image"
+                      />
+                      <div className="add-action">
+                        <i className="fab fa-instagram"></i>
+                      </div>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -229,10 +285,10 @@ export default function Footer() {
                 </p>
                 <ul className="footer-bootm-list order-md-2 order-1">
                   <li>
-                    <a href="contact.html">Terms & Condition</a>
+                    <Link href="/contact">Terms & Condition</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Privecy Policy</a>
+                    <Link href="/contact">Privecy Policy</Link>
                   </li>
                 </ul>
               </div>
