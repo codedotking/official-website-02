@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -65,9 +66,9 @@ export default function About() {
                   labor is tetur adipisicing elit,sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua.{" "}
                 </p>
-                <a href="about.html" className="btn btn-style-one">
+                <Link href="/about" className="btn btn-style-one">
                   <span>Read More</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

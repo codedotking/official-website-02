@@ -16,9 +16,9 @@ export default function Home() {
                   Sed do eiusmod tempor incididunt ut labore et dolore magna
                   aliq enim ad minim veniam,quis nostrud
                 </p>
-                <a href="service-details.html" className="btn btn-style-one">
+                <Link href="/service-details" className="btn btn-style-one">
                   <span>Read More</span>
-                </a>
+                </Link>
               </div>
               {/*  Slider Content End */}
               {/*  Slider Image Start */}
@@ -53,9 +53,9 @@ export default function Home() {
                   Sed do eiusmod tempor incididunt ut labore et dolore magna
                   aliq enim ad minim veniam,quis nostrud
                 </p>
-                <a href="service-details.html" className="btn btn-style-one">
+                <Link href="/service-details" className="btn btn-style-one">
                   <span>Read More</span>
-                </a>
+                </Link>
               </div>
               {/*  Slider Content End */}
               {/*  Slider Image Start */}
@@ -90,9 +90,9 @@ export default function Home() {
                   Sed do eiusmod tempor incididunt ut labore et dolore magna
                   aliq enim ad minim veniam,quis nostrud
                 </p>
-                <a href="service-details.html" className="btn btn-style-one">
+                <Link href="/service-details" className="btn btn-style-one">
                   <span>Read More</span>
-                </a>
+                </Link>
               </div>
               {/*  Slider Content End */}
               {/*  Slider Image Start */}
@@ -238,9 +238,9 @@ export default function Home() {
                     labor is tetur adipisicing elit,sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua.{" "}
                   </p>
-                  <a href="about.html" className="btn btn-style-one">
+                  <Link href="/about" className="btn btn-style-one">
                     <span>Read More</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -410,7 +410,7 @@ export default function Home() {
                         alt="icon"
                       />
                       <h6 className="title">
-                        <a href="service-details.html">Digital Marketing</a>
+                        <Link href="/service-details">Digital Marketing</Link>
                       </h6>
                     </div>
                     <p className="service-two-single-text">
@@ -435,7 +435,7 @@ export default function Home() {
                         alt="icon"
                       />
                       <h6 className="title">
-                        <a href="service-details.html">Graphic Design</a>
+                        <Link href="/service-details">Graphic Design</Link>
                       </h6>
                     </div>
                     <p className="service-two-single-text">
@@ -460,7 +460,7 @@ export default function Home() {
                         alt="icon"
                       />
                       <h6 className="title">
-                        <a href="service-details.html">Web Development</a>
+                        <Link href="/service-details">Web Development</Link>
                       </h6>
                     </div>
                     <p className="service-two-single-text">
@@ -485,7 +485,7 @@ export default function Home() {
                         alt="icon"
                       />
                       <h6 className="title">
-                        <a href="service-details.html">Cloud Hosting</a>
+                        <Link href="/service-details">Cloud Hosting</Link>
                       </h6>
                     </div>
                     <p className="service-two-single-text">
@@ -528,7 +528,7 @@ export default function Home() {
                 <div className="swiper-wrapper">
                   <div className="swiper-slide">
                     <div className="single-portfolio-carousel single-portfolio">
-                      <a className="thumbnail" href="portfolio-details.html">
+                      <Link className="thumbnail" href="portfolio-details">
                         <Image
                           width={0}
                           height={0}
@@ -537,25 +537,25 @@ export default function Home() {
                           src="/assets/img/portfolio-7.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                       <div className="content">
                         <span className="subtitle">Web Design</span>
                         <h3 className="title">
-                          <a href="portfolio-details.html">
+                          <Link href="/portfolio-details">
                             When the musics over turn off the light
-                          </a>
+                          </Link>
                         </h3>
                       </div>
                       <div className="lightbox">
-                        <a className="item" href="assets/img/portfolio-7.png">
+                        <Link className="item" href="assets/img/portfolio-7.png">
                           <i className="fas fa-external-link-alt"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="swiper-slide">
                     <div className="single-portfolio-carousel single-portfolio">
-                      <a className="thumbnail" href="portfolio-details.html">
+                      <Link className="thumbnail" href="portfolio-details">
                         <Image
                           width={0}
                           height={0}
@@ -564,25 +564,25 @@ export default function Home() {
                           src="/assets/img/portfolio-8.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                       <div className="content">
                         <span className="subtitle">Development</span>
                         <h3 className="title">
-                          <a href="portfolio-details.html">
+                          <Link href="/portfolio-details">
                             When the musics over turn off the light
-                          </a>
+                          </Link>
                         </h3>
                       </div>
                       <div className="lightbox">
-                        <a className="item" href="assets/img/portfolio-8.png">
+                        <Link className="item" href="assets/img/portfolio-8.png">
                           <i className="fas fa-external-link-alt"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="swiper-slide">
                     <div className="single-portfolio-carousel single-portfolio">
-                      <a className="thumbnail" href="portfolio-details.html">
+                      <Link className="thumbnail" href="portfolio-details">
                         <Image
                           width={0}
                           height={0}
@@ -591,25 +591,25 @@ export default function Home() {
                           src="/assets/img/portfolio-9.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                       <div className="content">
                         <span className="subtitle">Marketing</span>
                         <h3 className="title">
-                          <a href="portfolio-details.html">
+                          <Link href="/portfolio-details">
                             When the musics over turn off the light
-                          </a>
+                          </Link>
                         </h3>
                       </div>
                       <div className="lightbox">
-                        <a className="item" href="assets/img/portfolio-9.png">
+                        <Link className="item" href="assets/img/portfolio-9.png">
                           <i className="fas fa-external-link-alt"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="swiper-slide">
                     <div className="single-portfolio-carousel single-portfolio">
-                      <a className="thumbnail" href="portfolio-details.html">
+                      <Link className="thumbnail" href="portfolio-details">
                         <Image
                           width={0}
                           height={0}
@@ -618,19 +618,19 @@ export default function Home() {
                           src="/assets/img/portfolio-8.png"
                           alt=""
                         />
-                      </a>
+                      </Link>
                       <div className="content">
                         <span className="subtitle">Photogaphy</span>
                         <h3 className="title">
-                          <a href="portfolio-details.html">
+                          <Link href="/portfolio-details">
                             When the musics over turn off the light
-                          </a>
+                          </Link>
                         </h3>
                       </div>
                       <div className="lightbox">
-                        <a className="item" href="assets/img/portfolio-8.png">
+                        <Link className="item" href="assets/img/portfolio-8.png">
                           <i className="fas fa-external-link-alt"></i>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -666,9 +666,9 @@ export default function Home() {
                   labor is tetur adipisicing elit,sed do eiusmod tempor
                   incididunt ut labore et dolore magna aliqua.{" "}
                 </p>
-                <a href="team-members.html" className="btn btn-style-one">
+                <Link href="/team-members" className="btn btn-style-one">
                   <span>Read More</span>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-xl-6 offset-xl-1 col-lg-6 mb-30">
@@ -917,7 +917,7 @@ export default function Home() {
                   <div className="swiper-wrapper">
                     <div className="swiper-slide">
                       {/*  Single Brand Start */}
-                      <a className="brand-after" href="#">
+                      <Link className="brand-after" href="#">
                         <img
                           width={0}
                           height={0}
@@ -926,8 +926,8 @@ export default function Home() {
                           src="/assets/img/1.png"
                           alt="Brand-Image"
                         />
-                      </a>
-                      <a className="brand-before" href="#">
+                      </Link>
+                      <Link className="brand-before" href="#">
                         <Image
                           width={0}
                           height={0}
@@ -936,12 +936,12 @@ export default function Home() {
                           src="/assets/img/1-1.png"
                           alt="Brand-Image"
                         />
-                      </a>
+                      </Link>
                       {/*  Single Brand End */}
                     </div>
                     <div className="swiper-slide">
                       {/*  Single Brand Start */}
-                      <a className="brand-after" href="#">
+                      <Link className="brand-after" href="#">
                         <Image
                           width={0}
                           height={0}
@@ -950,8 +950,8 @@ export default function Home() {
                           src="/assets/img/2.png"
                           alt="Brand-Image"
                         />
-                      </a>
-                      <a className="brand-before" href="#">
+                      </Link>
+                      <Link className="brand-before" href="#">
                         <Image
                           width={0}
                           height={0}
@@ -960,12 +960,12 @@ export default function Home() {
                           src="/assets/img/2-1.png"
                           alt="Brand-Image"
                         />
-                      </a>
+                      </Link>
                       {/*  Single Brand End */}
                     </div>
                     <div className="swiper-slide">
                       {/*  Single Brand Start */}
-                      <a className="brand-after" href="#">
+                      <Link className="brand-after" href="#">
                         <img
                           width={0}
                           height={0}
@@ -974,8 +974,8 @@ export default function Home() {
                           src="/assets/img/3.png"
                           alt="Brand-Image"
                         />
-                      </a>
-                      <a className="brand-before" href="#">
+                      </Link>
+                      <Link className="brand-before" href="#">
                         <Image
                           width={0}
                           height={0}
@@ -984,12 +984,12 @@ export default function Home() {
                           src="/assets/img/3-1.png"
                           alt="Brand-Image"
                         />
-                      </a>
+                      </Link>
                       {/*  Single Brand End */}
                     </div>
                     <div className="swiper-slide">
                       {/*  Single Brand Start */}
-                      <a className="brand-after" href="#">
+                      <Link className="brand-after" href="#">
                         <img
                           width={0}
                           height={0}
@@ -998,8 +998,8 @@ export default function Home() {
                           src="/assets/img/4.png"
                           alt="Brand-Image"
                         />
-                      </a>
-                      <a className="brand-before" href="#">
+                      </Link>
+                      <Link className="brand-before" href="#">
                         <Image
                           width={0}
                           height={0}
@@ -1008,12 +1008,12 @@ export default function Home() {
                           src="/assets/img/4-1.png"
                           alt="Brand-Image"
                         />
-                      </a>
+                      </Link>
                       {/*  Single Brand End */}
                     </div>
                     <div className="swiper-slide">
                       {/*  Single Brand Start */}
-                      <a className="brand-after" href="#">
+                      <Link className="brand-after" href="#">
                         <img
                           width={0}
                           height={0}
@@ -1022,8 +1022,8 @@ export default function Home() {
                           src="/assets/img/5.png"
                           alt="Brand-Image"
                         />
-                      </a>
-                      <a className="brand-before" href="#">
+                      </Link>
+                      <Link className="brand-before" href="#">
                         <Image
                           width={0}
                           height={0}
@@ -1032,7 +1032,7 @@ export default function Home() {
                           src="/assets/img/5-1.png"
                           alt="Brand-Image"
                         />
-                      </a>
+                      </Link>
                       {/*  Single Brand End */}
                     </div>
                   </div>
@@ -1102,9 +1102,9 @@ export default function Home() {
                     <li>Feb 12,2022</li>
                   </ul>
                   <h3 className="title">
-                    <a href="blog-details.html">
+                    <Link href="/blog-details">
                       Tips n tricks to make your clients happy
-                    </a>
+                    </Link>
                   </h3>
                 </div>
                 {/*  Single Blog Two End */}
@@ -1120,9 +1120,9 @@ export default function Home() {
                   <div className="single-subblog">
                     <span className="subtitle">Web Development</span>
                     <h3 className="title">
-                      <a href="blog-details.html">
+                      <Link href="/blog-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                     <span className="date">Feb 03,2022</span>
                   </div>
@@ -1134,9 +1134,9 @@ export default function Home() {
                   <div className="single-subblog">
                     <span className="subtitle">Web Development</span>
                     <h3 className="title">
-                      <a href="blog-details.html">
+                      <Link href="/blog-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                     <span className="date">Feb 03,2022</span>
                   </div>
@@ -1148,9 +1148,9 @@ export default function Home() {
                   <div className="single-subblog">
                     <span className="subtitle">Web Development</span>
                     <h3 className="title">
-                      <a href="blog-details.html">
+                      <Link href="/blog-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                     <span className="date">Feb 03,2022</span>
                   </div>
@@ -1162,9 +1162,9 @@ export default function Home() {
                   <div className="single-subblog">
                     <span className="subtitle">Web Development</span>
                     <h3 className="title">
-                      <a href="blog-details.html">
+                      <Link href="/blog-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                     <span className="date">Feb 03,2022</span>
                   </div>
@@ -1192,9 +1192,9 @@ export default function Home() {
                 </div>
                 {/*  Section Title End */}
                 {/*  Portfolio Button Start */}
-                <a className="btn-style-three" href="service.html">
+                <Link className="btn-style-three" href="service">
                   Read More
-                </a>
+                </Link>
                 {/*  Portfolio Button End */}
               </div>
             </div>
@@ -1229,7 +1229,7 @@ export default function Home() {
             <div className="col-lg-3 col-12 mb-40">
               <div className="footer-widget negative-margin">
                 <div className="logo">
-                  <a href="index.html">
+                  <Link href="/index">
                     <Image
                       width={0}
                       height={0}
@@ -1238,7 +1238,7 @@ export default function Home() {
                       src="/assets/img/logo.png"
                       alt=""
                     />
-                  </a>
+                  </Link>
                 </div>
                 <p className="footer-text">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -1281,19 +1281,19 @@ export default function Home() {
                 <h5 className="footer-widget-title">Service</h5>
                 <ul className="footer-widget-list">
                   <li>
-                    <a href="about.html">Web Design</a>
+                    <Link href="/about">Web Design</Link>
                   </li>
                   <li>
-                    <a href="about.html">Development</a>
+                    <Link href="/about">Development</Link>
                   </li>
                   <li>
-                    <a href="about.html">Digital Marketing</a>
+                    <Link href="/about">Digital Marketing</Link>
                   </li>
                   <li>
-                    <a href="about.html">Graphic Design</a>
+                    <Link href="/about">Graphic Design</Link>
                   </li>
                   <li>
-                    <a href="about.html">Photogaphy</a>
+                    <Link href="/about">Photogaphy</Link>
                   </li>
                 </ul>
               </div>
@@ -1305,19 +1305,19 @@ export default function Home() {
                 <h5 className="footer-widget-title">Quick Links</h5>
                 <ul className="footer-widget-list">
                   <li>
-                    <a href="about.html">About us</a>
+                    <Link href="/about">About us</Link>
                   </li>
                   <li>
-                    <a href="contact.html">History</a>
+                    <Link href="/contact">History</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Support</a>
+                    <Link href="/contact">Support</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <Link href="/contact">Contact</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Refund</a>
+                    <Link href="/contact">Refund</Link>
                   </li>
                 </ul>
               </div>
@@ -1346,24 +1346,24 @@ export default function Home() {
                 </ul>
                 <ul className="social-icon d-flex flex-start">
                   <li>
-                    <a href="https://www.facebook.com/" className="facebook">
+                    <Link href="https://www.facebook.com/" className="facebook">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://twitter.com/" className="twitter">
+                    <Link href="https://twitter.com/" className="twitter">
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" className="linkedin">
+                    <Link href="https://www.linkedin.com/" className="linkedin">
                       <i className="fab fa-linkedin-in"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" className="instagram">
+                    <Link href="https://www.instagram.com/" className="instagram">
                       <i className="fab fa-instagram"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -1378,10 +1378,10 @@ export default function Home() {
                 </p>
                 <ul className="footer-bootm-list order-md-2 order-1">
                   <li>
-                    <a href="contact.html">Terms & Condition</a>
+                    <Link href="/contact">Terms & Condition</Link>
                   </li>
                   <li>
-                    <a href="contact.html">Privecy Policy</a>
+                    <Link href="/contact">Privecy Policy</Link>
                   </li>
                 </ul>
               </div>
@@ -1390,10 +1390,10 @@ export default function Home() {
         </div>
       </footer>
       {/*  Scroll Top Start */}
-      <a href="#" className="scroll-top show" id="scroll-top">
+      <Link href="/#" className="scroll-top show" id="scroll-top">
         <i className="arrow-top fas fa-angle-double-up"></i>
         <i className="arrow-bottom fas fa-angle-double-up"></i>
-      </a>
+      </Link>
     </>
   );
 }

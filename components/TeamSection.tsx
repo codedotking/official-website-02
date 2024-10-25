@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function TeamSectioin() {
   return (
@@ -29,35 +30,35 @@ export default function TeamSectioin() {
             {/* Single Team Wrapper Start */}
             <div className="single-team">
               <div className="team-thumb">
-                <a className="image" href="member-details.html">
+                <Link className="image" href="member-details">
                   <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-1.png" alt="Team" />
-                </a>
+                </Link>
               </div>
               <ul className="sidebar-social">
                 <li>
-                  <a href="https://www.facebook.com/" className="facebook">
+                  <Link href="https://www.facebook.com/" className="facebook">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://twitter.com/" className="twitter">
+                  <Link href="https://twitter.com/" className="twitter">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/" className="linkedin">
+                  <Link href="https://www.linkedin.com/" className="linkedin">
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" className="instagram">
+                  <Link href="https://www.instagram.com/" className="instagram">
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="team-content">
                 <h4 className="title">
-                  <a href="member-details.html">Jewel Hafiz</a>
+                  <Link href="/member-details">Jewel Hafiz</Link>
                 </h4>
                 <span className="subtitle">Founder & CEO</span>
               </div>
@@ -71,35 +72,35 @@ export default function TeamSectioin() {
             {/* Single Team Wrapper Start */}
             <div className="single-team">
               <div className="team-thumb">
-                <a className="image" href="member-details.html">
+                <Link className="image" href="member-details">
                   <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-2.png" alt="Team" />
-                </a>
+                </Link>
               </div>
               <ul className="sidebar-social">
                 <li>
-                  <a href="https://www.facebook.com/" className="facebook">
+                  <Link href="https://www.facebook.com/" className="facebook">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://twitter.com/" className="twitter">
+                  <Link href="https://twitter.com/" className="twitter">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/" className="linkedin">
+                  <Link href="https://www.linkedin.com/" className="linkedin">
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" className="instagram">
+                  <Link href="https://www.instagram.com/" className="instagram">
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="team-content">
                 <h4 className="title">
-                  <a href="member-details.html">Jenny Alex</a>
+                  <Link href="/member-details">Jenny Alex</Link>
                 </h4>
                 <span className="subtitle">Founder & CEO</span>
               </div>
@@ -113,35 +114,35 @@ export default function TeamSectioin() {
             {/* Single Team Wrapper Start */}
             <div className="single-team">
               <div className="team-thumb">
-                <a className="image" href="member-details.html">
+                <Link className="image" href="member-details">
                   <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-3.png" alt="Team" />
-                </a>
+                </Link>
               </div>
               <ul className="sidebar-social">
                 <li>
-                  <a href="https://www.facebook.com/" className="facebook">
+                  <Link href="https://www.facebook.com/" className="facebook">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://twitter.com/" className="twitter">
+                  <Link href="https://twitter.com/" className="twitter">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/" className="linkedin">
+                  <Link href="https://www.linkedin.com/" className="linkedin">
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" className="instagram">
+                  <Link href="https://www.instagram.com/" className="instagram">
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="team-content">
                 <h4 className="title">
-                  <a href="member-details.html">John Pretty</a>
+                  <Link href="/member-details">John Pretty</Link>
                 </h4>
                 <span className="subtitle">Founder & CEO</span>
               </div>
@@ -155,35 +156,35 @@ export default function TeamSectioin() {
             {/* Single Team Wrapper Start */}
             <div className="single-team">
               <div className="team-thumb">
-                <a className="image" href="member-details.html">
+                <Link className="image" href="member-details">
                   <Image  width={0} height={0} sizes="100vw" style={{ width: '100%', height: 'auto' }} src="/assets/img/team-4.png" alt="Team" />
-                </a>
+                </Link>
               </div>
               <ul className="sidebar-social">
                 <li>
-                  <a href="https://www.facebook.com/" className="facebook">
+                  <Link href="https://www.facebook.com/" className="facebook">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://twitter.com/" className="twitter">
+                  <Link href="https://twitter.com/" className="twitter">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/" className="linkedin">
+                  <Link href="https://www.linkedin.com/" className="linkedin">
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/" className="instagram">
+                  <Link href="https://www.instagram.com/" className="instagram">
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="team-content">
                 <h4 className="title">
-                  <a href="member-details.html">Catherin Betty</a>
+                  <Link href="/member-details">Catherin Betty</Link>
                 </h4>
                 <span className="subtitle">Founder & CEO</span>
               </div>

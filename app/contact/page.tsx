@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function TeamMembers() {
   return (
     <>
@@ -109,7 +110,7 @@ export default function TeamMembers() {
                   <div className="contact-info-content">
                     <h3 className="title">Phone</h3>
                     <span className="text">
-                      <a href="tel:+123456789">+123 456 789</a>
+                      <Link href="/tel:+123456789">+123 456 789</Link>
                     </span>
                   </div>
                 </li>
@@ -120,7 +121,7 @@ export default function TeamMembers() {
                   <div className="contact-info-content">
                     <h3 className="title">Email</h3>
                     <span className="text">
-                      <a href="mailto:hello@egens.com">hello@egens.com</a>
+                      <Link href="/mailto:hello@egens.com">hello@egens.com</Link>
                     </span>
                   </div>
                 </li>

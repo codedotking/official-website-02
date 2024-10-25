@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function Page() {
   return (
     <>
@@ -101,7 +102,7 @@ export default function Page() {
                     />
                   </div>
                   <h4 className="title">
-                    <a href="service-details.html">Digital Marketing</a>
+                    <Link href="/service-details">Digital Marketing</Link>
                   </h4>
                 </div>
                 <p className="single-service-text">
@@ -109,9 +110,9 @@ export default function Page() {
                   aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor
                   in reprehenderit in voluptate velit esse cillum.
                 </p>
-                <a className="readmore-btn" href="service-details.html">
+                <Link className="readmore-btn" href="service-details">
                   <i className="fas fa-angle-right"></i>Read More
-                </a>
+                </Link>
               </div>
               {/* Single Service End */}
             </div>
@@ -133,7 +134,7 @@ export default function Page() {
                     />
                   </div>
                   <h4 className="title">
-                    <a href="service-details.html">Website Development</a>
+                    <Link href="/service-details">Website Development</Link>
                   </h4>
                 </div>
                 <p className="single-service-text">
@@ -141,9 +142,9 @@ export default function Page() {
                   aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor
                   in reprehenderit in voluptate velit esse cillum.
                 </p>
-                <a className="readmore-btn" href="service-details.html">
+                <Link className="readmore-btn" href="service-details">
                   <i className="fas fa-angle-right"></i>Read More
-                </a>
+                </Link>
               </div>
               {/* Single Service End */}
             </div>
@@ -165,9 +166,9 @@ export default function Page() {
                     />
                   </div>
                   <h4 className="title">
-                    <a href="service-details.html">
+                    <Link href="/service-details">
                       Search Engine Optimization
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 <p className="single-service-text">
@@ -175,9 +176,9 @@ export default function Page() {
                   aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor
                   in reprehenderit in voluptate velit esse cillum.
                 </p>
-                <a className="readmore-btn" href="service-details.html">
+                <Link className="readmore-btn" href="service-details">
                   <i className="fas fa-angle-right"></i>Read More
-                </a>
+                </Link>
               </div>
               {/* Single Service End */}
             </div>
@@ -199,10 +200,10 @@ export default function Page() {
                     />
                   </div>
                   <h4 className="title">
-                    <a href="service-details.html">
+                    <Link href="/service-details">
                       Cloud <br />
                       Hosting
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 <p className="single-service-text">
@@ -210,9 +211,9 @@ export default function Page() {
                   aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor
                   in reprehenderit in voluptate velit esse cillum.
                 </p>
-                <a className="readmore-btn" href="service-details.html">
+                <Link className="readmore-btn" href="service-details">
                   <i className="fas fa-angle-right"></i>Read More
-                </a>
+                </Link>
               </div>
               {/* Single Service End */}
             </div>
@@ -388,9 +389,9 @@ export default function Page() {
                 {/* Pricing List End */}
                 {/* Pricing Footer Start */}
                 <div className="pricing-footer">
-                  <a href="contact.html" className="btn btn-style-four">
+                  <Link href="/contact" className="btn btn-style-four">
                     Signup Now
-                  </a>
+                  </Link>
                 </div>
                 {/* Pricing Footer End */}
               </div>
@@ -465,9 +466,9 @@ export default function Page() {
                 {/* Pricing List End */}
                 {/* Pricing Footer Start */}
                 <div className="pricing-footer">
-                  <a href="contact.html" className="btn btn-style-four active">
+                  <Link href="/contact" className="btn btn-style-four active">
                     Signup Now
-                  </a>
+                  </Link>
                 </div>
                 {/* Pricing Footer End */}
               </div>
@@ -542,9 +543,9 @@ export default function Page() {
                 {/* Pricing List End */}
                 {/* Pricing Footer Start */}
                 <div className="pricing-footer">
-                  <a href="contact.html" className="btn btn-style-four">
+                  <Link href="/contact" className="btn btn-style-four">
                     Signup Now
-                  </a>
+                  </Link>
                 </div>
                 {/* Pricing Footer End */}
               </div>
@@ -574,9 +575,9 @@ export default function Page() {
                 </div>
                 {/* Section Title End */}
                 {/* Portfolio Button Start */}
-                <a className="btn-style-three" href="">
+                <Link className="btn-style-three" href="">
                   Read More
-                </a>
+                </Link>
                 {/* Portfolio Button End */}
               </div>
             </div>

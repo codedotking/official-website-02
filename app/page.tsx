@@ -3,6 +3,7 @@ import BrandSection from "@/components/BrandSection";
 import ProgressSection from "@/components/ProgressSection";
 import TeamSectioin from "@/components/TeamSection";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -129,11 +130,11 @@ export default function Home() {
                             magna aliqua. Ut enim ad minim veniam,quis nostrud
                             exercitation ullamco laboris
                           </p>
-                          <a
-                            href="service-details.html"
+                          <Link
+                            href="/service-details"
                             className="btn btn-style-one">
                             <span>Read More</span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xl-6 col-lg-7">
@@ -294,11 +295,11 @@ export default function Home() {
                             magna aliqua. Ut enim ad minim veniam,quis nostrud
                             exercitation ullamco laboris
                           </p>
-                          <a
-                            href="service-details.html"
+                          <Link
+                            href="service-details"
                             className="btn btn-style-one">
                             <span>Read More</span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -459,11 +460,11 @@ export default function Home() {
                             magna aliqua. Ut enim ad minim veniam,quis nostrud
                             exercitation ullamco laboris
                           </p>
-                          <a
-                            href="service-details.html"
+                          <Link
+                            href="service-details"
                             className="btn btn-style-one">
                             <span>Read More</span>
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -622,7 +623,7 @@ export default function Home() {
                     />
                   </div>
                   <h4 className="title">
-                    <a href="service-details.html">Digital Marketing</a>
+                    <Link href="/service-details">Digital Marketing</Link>
                   </h4>
                 </div>
                 <p className="single-service-text">
@@ -630,9 +631,9 @@ export default function Home() {
                   aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor
                   in reprehenderit in voluptate velit esse cillum.
                 </p>
-                <a className="readmore-btn" href="service-details.html">
+                <Link className="readmore-btn" href="service-details">
                   <i className="fas fa-angle-right"></i>Read More
-                </a>
+                </Link>
               </div>
             </div>
             <div
@@ -652,7 +653,7 @@ export default function Home() {
                     />
                   </div>
                   <h4 className="title">
-                    <a href="service-details.html">Website Development</a>
+                    <Link href="/service-details">Website Development</Link>
                   </h4>
                 </div>
                 <p className="single-service-text">
@@ -660,9 +661,9 @@ export default function Home() {
                   aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor
                   in reprehenderit in voluptate velit esse cillum.
                 </p>
-                <a className="readmore-btn" href="service-details.html">
+                <Link className="readmore-btn" href="service-details">
                   <i className="fas fa-angle-right"></i>Read More
-                </a>
+                </Link>
               </div>
             </div>
             <div
@@ -682,9 +683,9 @@ export default function Home() {
                     />
                   </div>
                   <h4 className="title">
-                    <a href="service-details.html">
+                    <Link href="/service-details">
                       Search Engine Optimization
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 <p className="single-service-text">
@@ -692,9 +693,9 @@ export default function Home() {
                   aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor
                   in reprehenderit in voluptate velit esse cillum.
                 </p>
-                <a className="readmore-btn" href="service-details.html">
+                <Link className="readmore-btn" href="service-details">
                   <i className="fas fa-angle-right"></i>Read More
-                </a>
+                </Link>
               </div>
             </div>
             <div
@@ -714,10 +715,10 @@ export default function Home() {
                     />
                   </div>
                   <h4 className="title">
-                    <a href="service-details.html">
+                    <Link href="/service-details">
                       Cloud <br />
                       Hosting
-                    </a>
+                    </Link>
                   </h4>
                 </div>
                 <p className="single-service-text">
@@ -725,9 +726,9 @@ export default function Home() {
                   aliqua. Aliquip ex ea commodo consequat. Duis aute irure dolor
                   in reprehenderit in voluptate velit esse cillum.
                 </p>
-                <a className="readmore-btn" href="service-details.html">
+                <Link className="readmore-btn" href="service-details">
                   <i className="fas fa-angle-right"></i>Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -750,9 +751,9 @@ export default function Home() {
                     aliqua. when the musics over turn off the light
                   </p>
                 </div>
-                <a className="btn-style-two" href="portfolio.html">
+                <Link className="btn-style-two" href="portfolio">
                   <span>View All</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -780,7 +781,7 @@ export default function Home() {
             <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n25 grid parent-gallery">
               <div className="col mb-25 grid-item cat2 cat4">
                 <div className="single-portfolio">
-                  <a className="thumbnail" href="portfolio-details.html">
+                  <Link className="thumbnail" href="portfolio-details">
                     <Image
                       width={0}
                       height={0}
@@ -789,25 +790,25 @@ export default function Home() {
                       src="/assets/img/portfolio-1.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                   <div className="content">
                     <span className="subtitle">Web Design</span>
                     <h3 className="title">
-                      <a href="portfolio-details.html">
+                      <Link href="/portfolio-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                   </div>
                   <div className="lightbox">
-                    <a className="item" href="assets/img/portfolio-1.png">
+                    <Link className="item" href="assets/img/portfolio-1.png">
                       <i className="fas fa-external-link-alt"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col mb-25 grid-item cat1">
                 <div className="single-portfolio">
-                  <a className="thumbnail" href="portfolio-details.html">
+                  <Link className="thumbnail" href="portfolio-details">
                     <Image
                       width={0}
                       height={0}
@@ -816,25 +817,25 @@ export default function Home() {
                       src="/assets/img/portfolio-2.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                   <div className="content">
                     <span className="subtitle">Web Design</span>
                     <h3 className="title">
-                      <a href="portfolio-details.html">
+                      <Link href="/portfolio-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                   </div>
                   <div className="lightbox">
-                    <a className="item" href="assets/img/portfolio-2.png">
+                    <Link className="item" href="assets/img/portfolio-2.png">
                       <i className="fas fa-external-link-alt"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col mb-25 grid-item cat4">
                 <div className="single-portfolio">
-                  <a className="thumbnail" href="portfolio-details.html">
+                  <Link className="thumbnail" href="portfolio-details">
                     <Image
                       width={0}
                       height={0}
@@ -843,25 +844,25 @@ export default function Home() {
                       src="/assets/img/portfolio-3.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                   <div className="content">
                     <span className="subtitle">Photography</span>
                     <h3 className="title">
-                      <a href="portfolio-details.html">
+                      <Link href="/portfolio-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                   </div>
                   <div className="lightbox">
-                    <a className="item" href="assets/img/portfolio-3.png">
+                    <Link className="item" href="assets/img/portfolio-3.png">
                       <i className="fas fa-external-link-alt"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col mb-25 grid-item cat3 cat1">
                 <div className="single-portfolio">
-                  <a className="thumbnail" href="portfolio-details.html">
+                  <Link className="thumbnail" href="portfolio-details">
                     <Image
                       width={0}
                       height={0}
@@ -870,25 +871,25 @@ export default function Home() {
                       src="/assets/img/portfolio-4.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                   <div className="content">
                     <span className="subtitle">Marketing</span>
                     <h3 className="title">
-                      <a href="portfolio-details.html">
+                      <Link href="/portfolio-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                   </div>
                   <div className="lightbox">
-                    <a className="item" href="assets/img/portfolio-4.png">
+                    <Link className="item" href="assets/img/portfolio-4.png">
                       <i className="fas fa-external-link-alt"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col mb-25 grid-item cat4">
                 <div className="single-portfolio">
-                  <a className="thumbnail" href="portfolio-details.html">
+                  <Link className="thumbnail" href="portfolio-details">
                     <Image
                       width={0}
                       height={0}
@@ -897,25 +898,25 @@ export default function Home() {
                       src="/assets/img/portfolio-6.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                   <div className="content">
                     <span className="subtitle">Photography</span>
                     <h3 className="title">
-                      <a href="portfolio-details.html">
+                      <Link href="/portfolio-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                   </div>
                   <div className="lightbox">
-                    <a className="item" href="assets/img/portfolio-6.png">
+                    <Link className="item" href="assets/img/portfolio-6.png">
                       <i className="fas fa-external-link-alt"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col mb-25 grid-item cat1 cat3">
                 <div className="single-portfolio">
-                  <a className="thumbnail" href="portfolio-details.html">
+                  <Link className="thumbnail" href="portfolio-details">
                     <Image
                       width={0}
                       height={0}
@@ -924,19 +925,19 @@ export default function Home() {
                       src="/assets/img/portfolio-5.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                   <div className="content">
                     <span className="subtitle">Development</span>
                     <h3 className="title">
-                      <a href="portfolio-details.html">
+                      <Link href="/portfolio-details">
                         When the musics over turn off the light
-                      </a>
+                      </Link>
                     </h3>
                   </div>
                   <div className="lightbox">
-                    <a className="item" href="assets/img/portfolio-5.png">
+                    <Link className="item" href="assets/img/portfolio-5.png">
                       <i className="fas fa-external-link-alt"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -960,9 +961,9 @@ export default function Home() {
                     is tetur adip isicing elit,sed do eiusmod
                   </p>
                 </div>
-                <a className="btn-style-three" href="service.html">
+                <Link className="btn-style-three" href="service">
                   Read More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -1153,7 +1154,7 @@ export default function Home() {
               data-wow-delay=".1s">
               <div className="blog">
                 <div className="blog-thumbnail">
-                  <a href="blog-details.html" className="image">
+                  <Link href="/blog-details" className="image">
                     <Image
                       width={0}
                       height={0}
@@ -1162,7 +1163,7 @@ export default function Home() {
                       src="/assets/img/blog-1.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="blog-info">
                   <ul className="meta">
@@ -1170,9 +1171,9 @@ export default function Home() {
                     <li>Apr 06,2022</li>
                   </ul>
                   <h3 className="title">
-                    <a href="blog-details.html">
+                    <Link href="/blog-details">
                       Jim Morisson says when the musics over turn off the light
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -1183,7 +1184,7 @@ export default function Home() {
               data-wow-delay=".1s">
               <div className="blog">
                 <div className="blog-thumbnail">
-                  <a href="blog-details.html" className="image">
+                  <Link href="/blog-details" className="image">
                     <Image
                       width={0}
                       height={0}
@@ -1192,7 +1193,7 @@ export default function Home() {
                       src="/assets/img/blog-2.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="blog-info">
                   <ul className="meta">
@@ -1200,9 +1201,9 @@ export default function Home() {
                     <li>Feb 22,2022</li>
                   </ul>
                   <h3 className="title">
-                    <a href="blog-details.html">
+                    <Link href="/blog-details">
                       The Seven Secrets That You Shouldn&apos;t Know About Web
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
@@ -1213,7 +1214,7 @@ export default function Home() {
               data-wow-delay=".1s">
               <div className="blog">
                 <div className="blog-thumbnail">
-                  <a href="blog-details.html" className="image">
+                  <Link href="/blog-details" className="image">
                     <Image
                       width={0}
                       height={0}
@@ -1222,7 +1223,7 @@ export default function Home() {
                       src="/assets/img/blog-3.png"
                       alt="Blog Image"
                     />
-                  </a>
+                  </Link>
                 </div>
                 <div className="blog-info">
                   <ul className="meta">
@@ -1230,9 +1231,9 @@ export default function Home() {
                     <li>July 04,2022</li>
                   </ul>
                   <h3 className="title">
-                    <a href="blog-details.html">
+                    <Link href="/blog-details">
                       You Will Never Believe These Bizarre Truth Of Web Design.
-                    </a>
+                    </Link>
                   </h3>
                 </div>
               </div>
